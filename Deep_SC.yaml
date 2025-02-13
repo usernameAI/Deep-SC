@@ -1,0 +1,42 @@
+neg_sample_ratio: 0.2
+ssl_loss_weight: 1e-1
+main_loss_weight: 0.3
+embedding_size: 64
+ui_gnn_layer_num: 1
+ui_gnn_head_num: 1
+graphformer_layer_num: 1
+graphformer_head_num: 1
+dropout: 0.2
+ligntgcn_layer: 1
+temperature_parameter: 0.07
+train_batch_size: 64
+eval_batch_size: 64
+learning_rate: 0.001
+use_gpu: True
+gpu_id: 0
+seed: 2024
+MODEL_TYPE: ModelType.SOCIAL
+dataset_type: SocialDataset
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+NET_SOURCE_ID_FIELD: source_id
+NET_TARGET_ID_FIELD: target_id
+filter_net_by_inter: True
+undirected_net: False
+fill_nan: True
+load_col:
+    inter: [user_id, item_id]
+    net: [source_id, target_id]
+epochs: 100
+learner: adamw
+use_scheduler: False
+eval_step: 1
+stopping_step: 5
+valid_metric: NDCG@10
+metrics: ['Hit', 'NDCG']
+topk: [5, 10, 20]
+eval_args:
+    split: {'RS':[0.8, 0.1, 0.1]}
+    group_by: user
+    order: RO
+    mode: uni100
