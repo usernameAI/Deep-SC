@@ -2,7 +2,7 @@
 
 This is an implemention for our paper based on Pytorch
 
-Social capital-driven multi-task learning for social recommendation
+Social capital-driven multi-faceted preference learning for product recommendation
 
 This paper is currently under peer review.
 
