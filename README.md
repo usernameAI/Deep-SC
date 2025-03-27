@@ -2,7 +2,7 @@
 
 This is an implemention for our paper based on Pytorch
 
-Social capital-driven multi-faceted preference learning for product recommendation
+Social capital matters: Towards comprehensive user preference for product recommendation with deep learning
 
 This paper is currently under peer review.
 
