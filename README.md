@@ -1,4 +1,4 @@
-# Deep-SC
+# DeepSC
 
 This is an implemention for our paper based on Pytorch
 
