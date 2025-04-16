@@ -7,7 +7,7 @@ Social capital matters: Towards comprehensive user preference for product recomm
 This paper is currently under peer review.
 
 # Dataset
-We provide all the three dataset: Ciao, Epinions, and Yelp
+We provide all the three datasets: Ciao, Epinions, and Yelp
 
 # Example to run the codes
 1. Environment: I have tested this code with python3.7 Pytorch=1.13.1 CUDA=11.7
