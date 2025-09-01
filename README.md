@@ -4,7 +4,7 @@ This is an implemention for our paper based on Pytorch
 
 Social capital matters: Towards comprehensive user preference for product recommendation with deep learning
 
-This paper is currently under peer review.
+This paper is just accepted by Decision Support Systems.
 
 # Dataset
 We provide all the three datasets: Ciao, Epinions, and Yelp
